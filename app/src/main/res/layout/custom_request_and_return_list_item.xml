@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    >
+
+    <TextView
+        android:id="@+id/request_and_return_product_list_id_tracker_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+    <LinearLayout
+        android:id="@+id/upper_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="1"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/request_product_custom_list_item_text_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:text="Sunsilk Shampoo"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/greyishBlack"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/request_product_custom_list_item_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.35"
+            android:background="@drawable/rounded_text_edit_stroked"
+            android:ems="10"
+            android:hint="@string/qnty_string"
+            android:inputType="number"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:textAlignment="textStart"
+            android:textColor="@color/greyishBlack"
+            android:textSize="16sp" />
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15">
+
+            <ImageButton
+                android:id="@+id/request_product_custom_list_item_image_button"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/circular_button"
+                android:tint="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/cross_icon" />
+        </android.support.constraint.ConstraintLayout>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

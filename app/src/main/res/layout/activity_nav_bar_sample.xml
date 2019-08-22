@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout"
+    tools:context="com.example.areebwaseem.mdevinventorymanagementv02.NavBarSample"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/view"
+            >
+            <android.support.v4.view.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/fragmentContainer"
+                >
+
+            </android.support.v4.view.ViewPager>
+
+        </RelativeLayout>
+
+
+
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/greyishBlack"
+            android:layout_above="@+id/navigationBottom"
+           />
+
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigationBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/greyishBlack"
+            app:itemIconTint="@android:color/white"
+            app:itemTextColor="@color/white"
+            android:background="?android:attr/windowBackground"
+            app:menu="@menu/navigation" />
+
+
+
+
+
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view_main"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/navigation_menu"
+        android:background="@color/greyishBlack"
+        app:headerLayout="@layout/navigation_header"
+        app:itemTextColor="@android:color/white"
+        app:itemIconTint="@android:color/white"
+        android:layout_gravity="start">
+    </android.support.design.widget.NavigationView>
+
+
+
+
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<item android:id= "@+id/nav_orders"
+   android:icon="@mipmap/ic_keyboard_arrow_right_white_24dp"
+    android:title="@string/order_string"
+    />
+    <item android:id= "@+id/nav_assigned"
+        android:icon="@mipmap/ic_keyboard_arrow_right_white_24dp"
+        android:title="@string/assign_products_string"
+        />
+    <item android:id= "@+id/nav_returned"
+        android:icon="@mipmap/ic_keyboard_arrow_right_white_24dp"
+        android:title="@string/retrun_products_string"
+        />
+    <item android:id= "@+id/nav_request"
+        android:icon="@mipmap/ic_keyboard_arrow_right_white_24dp"
+        android:title="@string/request_products_string"
+        />
+    <item android:id= "@+id/nav_customer"
+        android:icon="@mipmap/ic_keyboard_arrow_right_white_24dp"
+        android:title="@string/customers_string"
+        />
+    <item android:id= "@+id/nav_invoice"
+        android:icon="@mipmap/ic_keyboard_arrow_right_white_24dp"
+        android:title="@string/invoice_string"
+        />
+
+    <item android:id= "@+id/nav_logout"
+        android:icon="@mipmap/ic_keyboard_arrow_right_white_24dp"
+        android:title="@string/log_out_string"
+        />
+</menu>

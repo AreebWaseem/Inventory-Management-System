@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_bot_home"
+        android:icon="@drawable/icons_home_hd"
+        android:title="@string/home_string" />
+
+    <item
+        android:id="@+id/navigation_bot_Products"
+        android:icon="@mipmap/newspaper_hd"
+        android:title="@string/request_products_string" />
+
+    <item
+        android:id="@+id/navigation_bot_Orders"
+        android:icon="@drawable/if_price_tag"
+        android:title="@string/order_string" />
+    <item
+        android:id="@+id/navigation_bot_Invoice"
+        android:icon="@drawable/icn_inv"
+        android:title="@string/invoice_string" />
+    <item
+        android:id="@+id/navigation_bot_customer"
+        android:icon="@drawable/icon_customer_hd"
+        android:title="@string/customers_string" />
+
+</menu>

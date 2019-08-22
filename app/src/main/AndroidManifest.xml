@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.areebwaseem.mdevinventorymanagementv02">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:configChanges="orientation|screenSize|keyboardHidden"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme1">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".Products"
+            android:label="@string/title_activity_products" />
+        <activity android:name=".Main3Activity" />
+
+        <service
+            android:name=".BackgroundService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".NavBarSample"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Order_Activity" />
+        <activity
+            android:name=".password_reset_activity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".Order_activity_final"></activity>
+        <activity android:name=".offline_order_activity"></activity>
+        <activity android:name=".Forgot_password_Activity_final"></activity>
+    </application>
+
+</manifest>

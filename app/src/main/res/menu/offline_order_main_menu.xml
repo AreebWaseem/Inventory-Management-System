@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_bot_offline_order_home"
+        android:icon="@drawable/icons_home_hd"
+        android:title="@string/home_string" />
+    <item
+        android:id="@+id/navigation_bot_order_view_all"
+        android:icon="@drawable/if_price_tag"
+        android:title="@string/order_string" />
+    <item
+        android:id="@+id/navigation_bot_offline_customer"
+        android:icon="@drawable/icon_customer_hd"
+        android:title="@string/customers_string" />
+</menu>

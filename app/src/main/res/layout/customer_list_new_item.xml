@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_view_rounded"
+    android:foreground="?android:attr/selectableItemBackground"
+    >
+
+    <ImageView
+        android:id="@+id/profile_image_customer_list"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/user_rounded_bigger" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loc_ima"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintLeft_toRightOf="@id/profile_image_customer_list"
+        app:layout_constraintTop_toBottomOf="@id/name_list"
+        app:srcCompat="@drawable/location_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:id="@+id/product_list"
+        android:text="Address"
+        android:layout_marginStart="4dp"
+        android:textColor="@color/greyishBlack"
+        app:layout_constraintLeft_toRightOf="@id/loc_ima"
+        app:layout_constraintTop_toBottomOf="@id/name_list" />
+
+    <TextView
+        android:id="@+id/name_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="Customer Name"
+        android:textColor="@color/greyishBlack"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/profile_image_customer_list"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mob_ima"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintLeft_toRightOf="@id/profile_image_customer_list"
+        app:layout_constraintTop_toBottomOf="@id/loc_ima"
+        app:srcCompat="@drawable/phone_icon" />
+
+    <TextView
+        android:id="@+id/cost_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="4dp"
+        android:text="phone no"
+        android:textColor="@color/greyishBlack"
+        app:layout_constraintLeft_toRightOf="@id/loc_ima"
+        app:layout_constraintTop_toBottomOf="@id/product_list" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_bot_returned_home"
+        android:icon="@drawable/icons_home_hd"
+        android:title="@string/home_string" />
+
+    <item
+        android:id="@+id/navigation_bot_returned_products_all"
+        android:icon="@mipmap/newspaper_hd"
+        android:title="@string/retrun_products_string" />
+
+    <item
+        android:id="@+id/navigation_bot_return_products_to_inventory"
+        android:icon="@drawable/return_products_to_inventory"
+        android:title="@string/retrun_products_string" />
+
+</menu>

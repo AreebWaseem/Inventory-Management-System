@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_view_rounded"
+    android:foreground="?android:attr/selectableItemBackground"
+    >
+
+    <ImageView
+        android:id="@+id/imageView111"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/desktop_pic_flat" />
+    <ImageView
+        android:id="@+id/imageView_return_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:tint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_keyboard_arrow_right_white_24dp" />
+
+
+    <TextView
+        android:id="@+id/return_product_product_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="return_product_name"
+        android:textColor="@color/greyishBlack"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView_return_arrow"
+        app:layout_constraintStart_toEndOf="@+id/imageView111"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/return_product_batch_no"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:text="TextView"
+        android:textColor="@color/greyishBlack"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView_return_arrow"
+        app:layout_constraintStart_toEndOf="@+id/imageView111"
+        app:layout_constraintTop_toBottomOf="@+id/return_product_product_name" />
+
+    <TextView
+        android:id="@+id/return_product_remaining_quantity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:text="TextView"
+        android:textColor="@color/greyishBlack"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView_return_arrow"
+        app:layout_constraintStart_toEndOf="@+id/imageView111"
+        app:layout_constraintTop_toBottomOf="@+id/return_product_batch_no" />
+
+</android.support.constraint.ConstraintLayout>

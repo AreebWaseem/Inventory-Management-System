@@ -1,0 +1,288 @@
+<resources>
+
+    <!--
+    <string name="app_name">MDevInventoryManagementV0.2</string>
+    <string name="title_activity_login">Sign in</string>
+
+
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_products">Products</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="search_products_str_resource">Search Products</string>
+    <string name="button_confirm_str_resource">Confirm</string>
+    <string name="button_proceed_str_resource">Proceed</string>
+    <string name="spin_select_products_str_resource">Select Products</string>
+    <string name="products_string">PRODUCTS</string>\
+    <string name="successful_string">Successful!</string>
+    <string name="name_string">Name</string>
+    <string name="qnty_string">Quantity</string>
+    <string name="email_string">Email</string>
+    <string name="password_string">Password</string>
+    <string name="request_code_string">Request Code</string>
+    <string name="cust_billing_info_string">CUSTOMER BILLING INFO</string>
+    <string name="description_string">Description</string>
+    <string name="selling_string">Selling Price</string>
+    <string name="QNT_string">QNTY</string>
+    <string name="total_string">Total</string>
+    <string name="sub_total_string">Sub-total:</string>
+    <string name="discount_string">Discount%:</string>
+    <string name="grand_total_string">Grand-total:</string>
+    <string name="payment_method_string">Payment_method</string>
+    <string name="cheque_no_string">Cheque no:</string>
+    <string name="cheque_date_string">Cheque date:</string>
+    <string name="drawee_bank_string">Drawee Bank:</string>
+    <string name="payment_ref">Payment Reference</string>
+    <string name="received_amount">Received Amount:</string>
+    <string name="note_string">Note:</string>
+    <string name="year_month_day">YYYY-MM-DD</string>
+    <string name="next_string">NEXT</string>
+    <string name="order_no">Order no:</string>
+    <string name="rate_string">RATE</string>
+    <string name="tax_string">TAX</string>
+    <string name="exit_string">EXIT</string>
+    <string name="sync_now_string">Sync Now</string>
+    <string name="offline_mode_string">OFFLINE MODE</string>
+    <string name="invoice_no_string">Invoice No</string>
+    <string name="new_password_string">New Password</string>
+    <string name="code_string">CODE</string>
+    <string name="validate_string">VALIDATE</string>
+    <string name="update_details_string">Update Details</string>
+    <string name="phone_number_string">Phone Number</string>
+    <string name="address_string">Address</string>
+    <string name="enter_cust_details">Enter Customer Details</string>
+    <string name="add_string">Add</string>
+    <string name="amount_string">Amount</string>
+    <string name="batch_string">Batch</string>
+    <string name="price_string">Price</string>
+    <string name="cust_name_string">Customer Name:</string>
+    <string name="cust_string">Customer</string>
+    <string name="retrun_products_string">Returned Products</string>
+    <string name="assign_products_string">Assigned Products</string>
+    <string name="see_all_string">See all ></string>
+    <string name="email_address_string">Email Address</string>
+    <string name="send_reset_code_string">Send Reset Code</string>
+    <string name="edit_profile_string">Edit Profile</string>
+    <string name="old_password_string">Old Password</string>
+    <string name="log_in_string">Log in</string>
+    <string name="forgot_password_string">Forgot Password?</string>
+    <string name="home_string">Home</string>
+    <string name="new_order_string">New Order</string>
+    <string name="manage_order_string">Manage Orders</string>
+    <string name="order_string">Orders</string>
+    <string name="customers_string">Customers</string>
+    <string name="add_customer_string">Add Customers</string>
+    <string name="request_products_string">Request Products</string>
+    <string name="invoice_string">Invoice</string>
+    <string name="log_out_string">Log Out</string>
+    <string name="product_string">Product</string>
+    <string name="no_internet_connection_string">No internet Connection!</string>
+    <string name="error_com_server_string">Error Communicating with server!</string>
+    <string name="requested_products_string">Requested Products</string>
+    <string name="something_went_string">Something Went Wrong, Try Again!</string>
+    <string name="products_small_string">Products</string>
+    <string name="status_string">Status</string>
+    <string name="ordered_quantity">Ordered Quantity</string>
+    <string name="received_quanity">Received Quantity</string>
+    <string name="request_success_sent_string">Request Successfully Sent!</string>
+    <string name="invalid_qnty_string">Invalid Quantity Selected!</string>
+    <string name="no_prods_string">No products!</string>
+    <string name="prod_alrea_added_string">Product Already Added!</string>
+    <string name="fields_cant_string">Fields cant be empty!</string>
+    <string name="prof_success_updated_string">Profile successfully updated!</string>
+    <string name="product_small_string">Product</string>
+    <string name="incor_user_or_pass_string">Incorrect Username or Password!</string>
+    <string name="payment_by_string">Payment by</string>
+    <string name="enter_comp_check">Enter complete check info!</string>
+    <string name="enter_recei_amount">Enter received amount!</string>
+    <string name="enter_vali_percent">Enter valid percentage!</string>
+    <string name="succ_invoice_num">Success, Invoice no: </string>
+    <string name="invali_cust_string">Invalid Customer!</string>
+    <string name="qnt_cant_great_stock">Quantity can\'t be greater than in stock: </string>
+    <string name="no_data_string">No data!</string>
+    <string name="no_cust_data_string">No customer data!</string>
+    <string name="date_string">Date</string>
+    <string name="no_off_orders">No offline orders!</string>
+    <string name="wish_enter_off">Do you wish to enter offline Mode?</string>
+    <string name="incor_user_or_pass">Incorrect Username or Password!</string>
+    <string name="invo_date_string">Invoice Date</string>
+    <string name="INVOICE_string">INVOICE</string>
+    <string name="reset_sent_string">Reset code has been sent to your email. Please check your email.</string>
+    <string name="update_success_string">Update Successful!</string>
+
+    -->
+    <string name="app_name">mDev IMS</string>
+    <string name="title_activity_login">लगइन गर्नुहोस</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">ईमेल</string>
+    <string name="prompt_password">पासवर्ड</string>
+    <string name="action_sign_in">लगइन गर्नुहोस/दर्ता गर्नुहोस </string>
+    <string name="action_sign_in_short">लगइन गर्नुहोस</string>
+    <string name="error_invalid_email">ईमेल मिलेन</string>
+    <string name="error_invalid_password">पासवर्ड छोटो भयो</string>
+    <string name="error_incorrect_password">पासवर्ड मिलेन</string>
+    <string name="error_field_required">अनिवार्य हाल्नुहोस</string>
+    <string name="permission_rationale">"ईमेल पूर्णीकरण प्रदान गर्नका लागि सम्पर्क अनुमति आवश्यक छ।"
+    </string>
+    <string name="title_activity_products">सामानहरु</string>
+    <string name="title_home">गृह</string>
+    <string name="title_dashboard">गृहपृष्ठ</string>
+    <string name="title_notifications">सुचनाहरु</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">खोल्नुहोस</string>
+    <string name="navigation_drawer_close">बन्द गर्नुहोस</string>
+
+    <string name="action_settings">सेटिङ</string>
+    <string name="open">खोल्नुहोस</string>
+    <string name="close">बन्द गर्नुहोस</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="search_products_str_resource">सामानहरु खोज्नुहोस</string>
+    <string name="button_confirm_str_resource">यकिन गर्नुहोस्</string>
+    <string name="button_proceed_str_resource">सेव </string>
+    <string name="spin_select_products_str_resource">सामानहरु छान्नुहोस</string>
+    <string name="products_string">सामानहरु</string>\
+    <string name="successful_string">कार्य सफल भयो ।</string>
+    <string name="name_string">नाम</string>
+    <string name="qnty_string">मात्रा</string>
+    <string name="email_string">ईमेल</string>
+    <string name="password_string">पासवर्ड</string>
+    <string name="request_code_string">कोड अनुरोध</string>
+    <string name="cust_billing_info_string">ग्राहक बिल्लिङ विवरण</string>
+    <string name="description_string">विवरण</string>
+    <string name="selling_string">बेच्ने मुल्य</string>
+    <string name="QNT_string">मात्रा</string>
+    <string name="total_string">कुल जम्मा</string>
+    <string name="sub_total_string">जम्मा:</string>
+    <string name="discount_string">छुट %:</string>
+    <string name="grand_total_string">कुल जम्मा:</string>
+    <string name="payment_method_string">भुक्तानी किसिम</string>
+    <string name="cheque_no_string">चेक नम्बर:</string>
+    <string name="cheque_date_string">चेक मिती:</string>
+    <string name="drawee_bank_string">चेक खिचिएको संस्था :</string>
+    <string name="payment_ref">अन्य विवरण</string>
+    <string name="received_amount">बुझिलिएको रकम:</string>
+    <string name="note_string">नोट:</string>
+    <string name="year_month_day">YYYY-MM-DD</string>
+    <string name="next_string">अर्को</string>
+    <string name="order_no">बिल नं:</string>
+    <string name="rate_string">दर</string>
+    <string name="tax_string">कर</string>
+    <string name="exit_string">बन्द गर्नुहोस्</string>
+    <string name="sync_now_string">Sync गर्नुहोस</string>
+    <string name="offline_mode_string">अफलाइन मोड</string>
+    <string name="invoice_no_string">बिजक नं</string>
+    <string name="new_password_string">नयाँ पासवर्ड</string>
+    <string name="code_string">कोड</string>
+    <string name="validate_string">मान्य</string>
+    <string name="update_details_string">सच्याउनुहोस</string>
+    <string name="phone_number_string">फोन नं</string>
+    <string name="address_string">ठेगाना</string>
+    <string name="enter_cust_details">ग्राहकको विवरण हाल्नुहोस</string>
+    <string name="add_string">थप्नुहोस</string>
+    <string name="amount_string">रकम</string>
+    <string name="batch_string">ब्याच</string>
+    <string name="price_string">दर</string>
+    <string name="cust_name_string">ग्राहकको नाम:</string>
+    <string name="cust_string">ग्राहक</string>
+    <string name="retrun_products_string">फिर्ता गरिएको सामानको विवरण</string>
+    <string name="assign_products_string">पाएको सामानको विवरण</string>
+    <string name="see_all_string">सबै हेर्नुहोस</string>
+    <string name="email_address_string">ईमेल</string>
+    <string name="send_reset_code_string">कोड पठाउनु</string>
+    <string name="edit_profile_string">सच्याउनुहोस</string>
+    <string name="old_password_string">पुरानो पासवर्ड</string>
+    <string name="log_in_string">लगइन </string>
+    <string name="forgot_password_string">पासवर्ड बिर्सनुभयो ?</string>
+    <string name="home_string">गृह</string>
+    <string name="new_order_string">बिल काट्नु</string>
+    <string name="manage_order_string">बिल हेर्नुs</string>
+    <string name="order_string">बिल विवरण</string>
+    <string name="customers_string">ग्राहक</string>
+    <string name="request_products_string">सामान मगाउनुहोस </string>
+    <string name="invoice_string">बिजक</string>
+    <string name="log_out_string">लगआउट</string>
+    <string name="product_string">सामान</string>
+    <string name="no_internet_connection_string">ईन्टरनेट कनेक्ट भएन!</string>
+    <string name="error_com_server_string">सर्वर कनेक्ट भएन !</string>
+    <string name="requested_products_string">सामान मगाउनु होस</string>
+    <string name="something_went_string">कार्य असफल भयो । फेरी पर्‍यास गर्नुहोस !</string>
+    <string name="products_small_string">सामान</string>
+    <string name="status_string">स्थिती</string>
+    <string name="ordered_quantity">मगाएको मात्रा</string>
+    <string name="received_quanity">पाएको मात्रा </string>
+    <string name="request_success_sent_string">सामान मगाउन सफल भयो!</string>
+    <string name="invalid_qnty_string">मात्रा मिलेन!</string>
+    <string name="no_prods_string">सामान भेटिएन!</string>
+    <string name="prod_alrea_added_string">सामान थप गरिसकिएको छ !</string>
+    <string name="fields_cant_string">खाली हुनु भएन !</string>
+    <string name="prof_success_updated_string">प्रोफाइल अपडेट भयो!</string>
+    <string name="product_small_string">सामान</string>
+    <string name="incor_user_or_pass_string">विवरण मिलेन!</string>
+    <string name="payment_by_string">भुक्तानी गर्ने</string>
+    <string name="enter_comp_check">पूर्ण चेक विवरण हाल्नुहोस!</string>
+    <string name="enter_recei_amount">बुझिलिएको रकम!</string>
+    <string name="enter_vali_percent">प्रतिशत हालेको मिलेन!</string>
+    <string name="succ_invoice_num">सफल । बिजक नं :</string>
+    <string name="invali_cust_string">ग्राहक मिलेन!</string>
+    <string name="qnt_cant_great_stock">मात्रा धेरै भयो </string>
+    <string name="no_data_string">विवरण भेटिएन !</string>
+    <string name="no_cust_data_string">ग्राहक भेटिएन!</string>
+    <string name="date_string">मिती</string>
+    <string name="no_off_orders">अफलाइन अर्डरहरू छैनन्!</string>
+    <string name="wish_enter_off">के तपाईं अफलाइन मोड मा जान चाहनुहुन्छ?</string>
+    <string name="incor_user_or_pass">विवरण मिलेन</string>
+    <string name="invo_date_string">बिजक मिती</string>
+    <string name="INVOICE_string">बिजक</string>
+    <string name="reset_sent_string">कोड तपाईंको ईमेलमा पठाइयो । ईमेल हेर्नुहोस । </string>
+    <string name="update_success_string">सच्याउनु सफल भयो</string>
+
+
+
+
+
+    <string name="product_invoice_order_string">सामान</string>
+
+   <string name="order_detail_string">बिल विवरण</string>
+
+   <string name="amount_returned_string">फिर्ता भएको राशि</string>
+
+   <string name="confirm_string">पुष्टि गर्नुहोस्</string>
+   <string name="select_products_string">सामान चयन गर्नुहोस्</string>
+   <string name="orders_string">बिल विवरण</string>
+   <string name="returned_products_string">िर्ता गरिएको सामान</string>
+   <string name="returnable_products_string">सामान फर्काउनुहोस्</string>
+   <string name="add_customer_string">ग्राहक थप गर्नुहोस्</string>
+   <string name="profile_string">प्रोफाइल</string>
+</resources>

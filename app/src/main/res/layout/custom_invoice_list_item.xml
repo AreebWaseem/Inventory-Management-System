@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linear_blue_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="4dp"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/product_no"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="0.5"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textAlignment="center"
+                android:textColor="@color/greyishBlack"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/invoice_product_description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="3.25"
+                android:textAlignment="center"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/greyishBlack"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/invoice_product_selling_price"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="3.25"
+                android:textAlignment="center"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/greyishBlack"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/invoice_product_qnty"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="1.25"
+                android:textAlignment="viewEnd"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/greyishBlack"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/invoice_product_total"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="1.75"
+                android:textAlignment="textEnd"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/greyishBlack"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.ConstraintLayout>
